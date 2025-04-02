@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\interfaces\\icacheevictionpolicyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:interfaces\\icacheevictionpolicyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\enums\\policytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:enums\\policytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\factories\\cacheevictionpolicyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:factories\\cacheevictionpolicyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\interfaces\\icacheevictionpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:interfaces\\icacheevictionpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\cachemanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:cachemanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\managers\\threadsafecachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:managers\\threadsafecachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\interfaces\\icachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:interfaces\\icachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\managers\\dictionarycachestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:managers\\dictionarycachestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\managers\\lrucacheevictionpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:managers\\lrucacheevictionpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\managers\\lfucacheevictionpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:managers\\lfucacheevictionpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|c:\\users\\suag\\onedrive - microsoft\\desktop\\lld\\cachemanager\\interfaces\\icachestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E65F29-0438-4C97-AE1C-283CD123DB0F}|CacheManager.csproj|solutionrelative:interfaces\\icachestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PolicyType.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Enums\\PolicyType.cs",
+              "RelativeDocumentMoniker": "Enums\\PolicyType.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Enums\\PolicyType.cs",
+              "RelativeToolTip": "Enums\\PolicyType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:23:03.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICacheEvictionPolicyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Interfaces\\ICacheEvictionPolicyFactory.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICacheEvictionPolicyFactory.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Interfaces\\ICacheEvictionPolicyFactory.cs",
+              "RelativeToolTip": "Interfaces\\ICacheEvictionPolicyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:16:01.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CacheEvictionPolicyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Factories\\CacheEvictionPolicyFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\CacheEvictionPolicyFactory.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Factories\\CacheEvictionPolicyFactory.cs",
+              "RelativeToolTip": "Factories\\CacheEvictionPolicyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:12:22.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThreadSafeCacheManager.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Managers\\ThreadSafeCacheManager.cs",
+              "RelativeDocumentMoniker": "Managers\\ThreadSafeCacheManager.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Managers\\ThreadSafeCacheManager.cs",
+              "RelativeToolTip": "Managers\\ThreadSafeCacheManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:27:04.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICacheManager.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Interfaces\\ICacheManager.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICacheManager.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Interfaces\\ICacheManager.cs",
+              "RelativeToolTip": "Interfaces\\ICacheManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:22:20.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:21:32.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICacheEvictionPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Interfaces\\ICacheEvictionPolicy.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICacheEvictionPolicy.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Interfaces\\ICacheEvictionPolicy.cs",
+              "RelativeToolTip": "Interfaces\\ICacheEvictionPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:23:52.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LFUCacheEvictionPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Managers\\LFUCacheEvictionPolicy.cs",
+              "RelativeDocumentMoniker": "Managers\\LFUCacheEvictionPolicy.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Managers\\LFUCacheEvictionPolicy.cs",
+              "RelativeToolTip": "Managers\\LFUCacheEvictionPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:02:29.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CacheManager.csproj",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\CacheManager.csproj",
+              "RelativeDocumentMoniker": "CacheManager.csproj",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\CacheManager.csproj",
+              "RelativeToolTip": "CacheManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-25T17:26:29.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LRUCacheEvictionPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Managers\\LRUCacheEvictionPolicy.cs",
+              "RelativeDocumentMoniker": "Managers\\LRUCacheEvictionPolicy.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Managers\\LRUCacheEvictionPolicy.cs",
+              "RelativeToolTip": "Managers\\LRUCacheEvictionPolicy.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:57:51.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICacheStore.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Interfaces\\ICacheStore.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICacheStore.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Interfaces\\ICacheStore.cs",
+              "RelativeToolTip": "Interfaces\\ICacheStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:30:06.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DictionaryCacheStore.cs",
+              "DocumentMoniker": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Managers\\DictionaryCacheStore.cs",
+              "RelativeDocumentMoniker": "Managers\\DictionaryCacheStore.cs",
+              "ToolTip": "C:\\Users\\suag\\OneDrive - Microsoft\\Desktop\\LLD\\CacheManager\\Managers\\DictionaryCacheStore.cs",
+              "RelativeToolTip": "Managers\\DictionaryCacheStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:31:26.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
