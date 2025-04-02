@@ -45,7 +45,7 @@ namespace FileSystem.Implementations
                 }
                 return tempRoot;
             }
-            return null;
+            return root;
         }
 
         public void CreateDirectory(string path)
