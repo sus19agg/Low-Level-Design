@@ -7,15 +7,17 @@ import Interfaces.Task;
 
 import java.time.Instant;
 
-public class ScheduledTask implements Task {
+public class RecurringScheduledTask implements Task, RecurringTask {
 
     private final ExecutionContext context;
-    private final Instant nextExecutionTime;
+    private Instant nextExecutionTime;
+    private final long interval;
     private final TaskPriority priority;
 
-    public ScheduledTask(ExecutionContext context, Instant nextExecutionTime, TaskPriority priority) {
+    public RecurringScheduledTask(ExecutionContext context, Instant nextExecutionTime, long intervalInSeconds, TaskPriority priority) {
         this.context = context;
         this.nextExecutionTime = nextExecutionTime;
+        this.interval = intervalInSeconds;
         this.priority = priority;
     }
 
@@ -25,12 +27,18 @@ public class ScheduledTask implements Task {
     }
 
     @Override
+    public Instant getNextExecutionTime() {
+        return this.nextExecutionTime;
+    }
+
+    @Override
     public TaskPriority getTaskPriority() {
         return priority;
     }
 
     @Override
-    public Instant getNextExecutionTime() {
-        return this.nextExecutionTime;
+    public Task getNextScheduledTask() {
+        this.nextExecutionTime = Instant.now().plusSeconds(this.interval);
+        return this;
     }
 }

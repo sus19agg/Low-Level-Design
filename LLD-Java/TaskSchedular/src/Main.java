@@ -1,6 +1,8 @@
+import Enums.TaskPriority;
 import Executions.ExecutionContext1;
 import Executions.ExecutionContext2;
 import Executions.ExecutionContext3;
+import Implementations.RecurringScheduledTask;
 import Implementations.ScheduledTask;
 import Implementations.TaskSchedulerImpl;
 import Interfaces.ExecutionContext;
@@ -17,10 +19,10 @@ public class Main {
         ExecutionContext executionContext2 = new ExecutionContext2();
         ExecutionContext executionContext3 = new ExecutionContext3();
 
-        taskScheduler.scheduleTask(new ScheduledTask(executionContext1, Instant.now(), true, 2));
-        taskScheduler.scheduleTask(new ScheduledTask(executionContext2, Instant.now()));
-        taskScheduler.scheduleTask(new ScheduledTask(executionContext3, Instant.now(), true, 3));
-        taskScheduler.scheduleTask(new ScheduledTask(executionContext2, Instant.now()));
+        taskScheduler.scheduleTask(new RecurringScheduledTask(executionContext1, Instant.now(), 2, TaskPriority.LOW));
+        taskScheduler.scheduleTask(new ScheduledTask(executionContext2, Instant.now(), TaskPriority.HIGH));
+        taskScheduler.scheduleTask(new RecurringScheduledTask(executionContext3, Instant.now(), 3, TaskPriority.MEDIUM));
+        taskScheduler.scheduleTask(new ScheduledTask(executionContext2, Instant.now(), TaskPriority.CRITICAL));
 
         taskScheduler.start();
         try {

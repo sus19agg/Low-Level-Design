@@ -25,8 +25,8 @@ public class TaskSchedulerRunner implements Runnable {
                         long diff = Duration.between(now, executionTime).toMillis();
                         if(diff>0) Thread.sleep(diff);
                         task.execute();
-                        if(task.getIsRecurringTask()) {
-                            taskStore.AddTask(task.getNextScheduledTask());
+                        if(task instanceof RecurringScheduledTask recurringScheduledTask) {
+                            taskStore.AddTask(recurringScheduledTask.getNextScheduledTask());
                         }
                     }
                 }

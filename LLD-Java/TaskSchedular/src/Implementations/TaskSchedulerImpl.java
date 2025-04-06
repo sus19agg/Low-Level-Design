@@ -17,7 +17,7 @@ public class TaskSchedulerImpl implements TaskScheduler {
 
     private TaskSchedulerImpl(int noOfThreads) {
         this.noOfThreads = noOfThreads;
-        taskStore = new TaskStoreImpl();
+        taskStore = TaskStoreImpl.getStore();
         threads = new ArrayList<>();
     }
 
