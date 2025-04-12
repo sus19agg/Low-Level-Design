@@ -24,8 +24,6 @@ public class Main {
             publisher.publishMessageToTopics("8", "This is a common message", List.of("Topic-A","Topic-B","Topic-C"));
             publisher.publishMessageToTopics("9", "This is a common message", List.of("Topic-A","Topic-B","Topic-C"));
             publisher.publishMessageToTopics("10", "This is a common message", List.of("Topic-A","Topic-B","Topic-C"));
-            Thread.sleep(10000);
-            Thread.currentThread().interrupt();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

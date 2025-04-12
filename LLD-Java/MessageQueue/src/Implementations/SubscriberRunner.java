@@ -7,7 +7,7 @@ import Models.QueueMessage;
 public class SubscriberRunner implements Runnable{
     private final ISubscriber subscriber;
     private final IPartition partition;
-    private boolean isRunning;
+    private volatile boolean isRunning;
 
     public SubscriberRunner(ISubscriber subscriber, IPartition partition){
         this.subscriber = subscriber;

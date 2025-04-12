@@ -35,8 +35,6 @@ namespace MessageQueue
                 messageBroker.PublishMessageToTopic("Topic2", "8", "this is message 8", new object());
                 messageBroker.PublishMessageToTopic("Topic3", "9", "this is message 9", new object());
 
-                Thread.Sleep(2000);
-
                 messageBroker.ResetTopic("Topic3");
                 messageBroker.AddSubscribersToTopic("Topic3", new List<ISubscriber> { s1, s2 });
                 messageBroker.PublishMessageToTopic("Topic1", "10", "this is message 10", new object());
@@ -45,8 +43,6 @@ namespace MessageQueue
                 messageBroker.PublishMessageToTopic("Topic1", "13", "this is message 13", new object());
                 messageBroker.PublishMessageToTopic("Topic3", "14", "this is message 14", new object());
                 messageBroker.PublishMessageToTopic("Topic3", "15", "this is message 15", new object());
-
-                Thread.Sleep(2000);
 
                 messageBroker.ProcessDeadLetterQueue("Topic1");
                 messageBroker.ProcessDeadLetterQueue("Topic2");

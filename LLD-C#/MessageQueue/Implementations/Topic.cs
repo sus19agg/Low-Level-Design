@@ -16,14 +16,14 @@ namespace MessageBroker.Implementations
         private readonly IMessageQueue<QueueMessage> messageQueue;
         private readonly IMessageQueue<QueueMessage> deadLetterQueue;
         private bool active;
-        private Task task;
+        private Thread thread;
 
         private void ActivateTopic()
         {
             active = true;
             ITopicRunnable topicRunnable = new TopicRunnable(this);
-            task = new Task(topicRunnable.Run);
-            task.Start();
+            thread = new Thread(topicRunnable.Run);
+            thread.Start();
         }
 
         public Topic(string name)
@@ -105,7 +105,7 @@ namespace MessageBroker.Implementations
         public void ResetTopic()
         {
             active = false;
-            task.Wait();
+            thread.Join();
             this.subscribers.Clear();
             this.messageQueue.Clear();
             this.deadLetterQueue.Clear();
